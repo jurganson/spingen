@@ -1,4 +1,5 @@
 import logging, sys
+import configparser
 from json_parser import parse_json_segments
 from voices import generate_voices
 from generator import pick_songs
@@ -20,4 +21,18 @@ def main (program_path = "./program_examples/dummy_program.json",
     generate_mp3(segments, fade_time_ms, speech_db_level, comment_fade_in_out_time_ms)
 
 if __name__ == "__main__":
-    main()
+    config = configparser.ConfigParser()
+
+    if len(sys.argv) > 1 :
+        config.read(sys.argv[1])
+    else :
+        config.read('./default_settings.ini')
+
+    program_path = config['settings']['Path_to_exercise_program_JSON']
+    tempo_offset_threshold = int(config['settings']['Allowed_BPM_offset_if_no_song_for_particular_BPM_is_found'])
+    fade_time_ms = int(config['settings']['Fade_time_in_MS'])
+    songs_root_path = config['settings']['Path_to_root_of_songs_folder']
+    speech_db_level = int(config['settings']['DB_Level_for_music_when_words_are_spoken'])
+    comment_fade_in_out_time_ms = int(config['settings']['Fade_time_for_comments_in_MS'])
+
+    main(program_path, songs_root_path, tempo_offset_threshold, fade_time_ms, speech_db_level, comment_fade_in_out_time_ms)
