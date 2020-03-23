@@ -1,0 +1,45 @@
+[
+  {
+    "text":"Warm up section. Keep a light resistance and stay seated. 4 minutes exercise.",
+    "duration_minute": 4,
+    "duration_second": 0,
+    "bpm":180,
+    "comments":[
+      {
+        "second":0,
+        "minute":2,
+        "comment":"2 minutes left"
+      }
+    ]
+  },
+  {
+    "text":"Get ready for the next exercise. Increase resistance. Stand up and sit down every 1 minute. 4 minute exercise",
+    "duration_minute": 4,
+    "duration_second": 0,
+    "bpm":120,
+    "comments":[
+      {
+        "second":0,
+        "minute":1,
+        "comment":"Stand up"
+      },
+      {
+        "second":0,
+        "minute":2,
+        "comment":"Sit down"
+      },
+      {
+        "second":0,
+        "minute":3,
+        "comment":"Stand up"
+      }
+    ]
+  },
+  {
+    "text":"Cooldown. Sit down and decrease resistance. 4 minute cooldown.",
+    "duration_minute": 4,
+    "duration_second": 0,
+    "bpm":125,
+    "comments":[]
+  }        
+]

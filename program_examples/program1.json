@@ -1,0 +1,150 @@
+[
+  {
+    "text":"Warm up: Stay seated with hands in second position. Keep a light tension. 4 minutes.",
+    "duration_minute": 4,
+    "duration_second": 0,
+    "bpm":160,
+    "comments":[]
+  },
+  {
+    "text":"Get ready for the next exercise. Increase resistance; stay seated for 1 min, stand for 1 min, then repeat. 4 minutes.",
+    "duration_minute": 4,
+    "duration_second": 0,
+    "bpm":160,
+    "comments":[
+      {
+        "second":0,
+        "minute":1,
+        "comment":"stand up"
+      },
+      {
+        "second":0,
+        "minute":2,
+        "comment":"sit down"
+      },
+      {
+        "second":0,
+        "minute":3,
+        "comment":"stand up"
+      }
+    ]
+  },
+  {
+    "text":"Get ready for the next exercise. Decrease resisstance and sit down with hands in second position for two minutes. 2 minutes.",
+    "duration_minute": 2,
+    "duration_second": 0,
+    "bpm":200,
+    "comments":[]
+  },
+  {
+    "text":"Get ready for the next exercise. Stand up with hands in second position and jog. 1 minute.",
+    "duration_minute": 1,
+    "duration_second": 0,
+    "bpm":140,
+    "comments":[]
+  },
+  {
+    "text":"Get ready for the next exercise. Sit down with hands in second position and increase resistance every 30 seconds. Then stand and increase every minute. 5 minutes",
+    "duration_minute": 5,
+    "duration_second": 0,
+    "bpm":120,
+    "comments":[
+      {
+        "second":30,
+        "minute":0,
+        "comment":"increase"
+      },
+      {
+        "second":0,
+        "minute":1,
+        "comment":"increase"
+      },
+      {
+        "second":30,
+        "minute":1,
+        "comment":"increase"
+      },
+      {
+        "second":0,
+        "minute":2,
+        "comment":"stand up and increase"
+      },
+      {
+        "second":0,
+        "minute":3,
+        "comment":"increase. two minute left"
+      },
+      {
+        "second":0,
+        "minute":4,
+        "comment":"increase. one minute left"
+      }
+    ]
+  },
+  {
+    "text":"Get ready for the next exercise. Decrease resisstance and sit down with hands in second position. 2 minutes",
+    "duration_minute": 2, 
+    "duration_second": 0,
+    "bpm":200,
+    "comments":[]
+  },
+  {
+    "text":"Get ready for the next exercise. Stand up with hands in second position and jog. 1 minute",
+    "duration_minute": 1,
+    "duration_second": 0,
+    "bpm":140,
+    "comments":[]
+  },
+  {
+    "text":"Get ready for the next exercise. Sit down with hands in second position and increase resistance every 30 seconds. Then stand and increase every minute. 5 minutes",
+    "duration_minute": 5,
+    "duration_second": 0,
+    "bpm":120,
+    "comments":[
+      {
+        "second":30,
+        "minute":0,
+        "comment":"increase"
+      },
+      {
+        "second":0,
+        "minute":1,
+        "comment":"increase"
+      },
+      {
+        "second":30,
+        "minute":1,
+        "comment":"increase"
+      },
+      {
+        "second":0,
+        "minute":2,
+        "comment":"stand up and increase"
+      },
+      {
+        "second":0,
+        "minute":3,
+        "comment":"increase. two minute left"
+      },
+      {
+        "second":0,
+        "minute":4,
+        "comment":"increase. one minute left"
+      }
+    ]
+  },
+  {
+    "text":"Get ready for the final exercise. Decrease resisstance and sit down with hands in second position. 2 minutes",
+    "duration_minute": 2,
+    "duration_second": 0,
+    "bpm":200,
+    "comments":[]
+  },
+  {
+    "text":"Program done. Cool down. 2 minutes",
+    "duration_minute": 2,
+    "duration_second": 0,
+    "bpm":160,
+    "comments":[]
+  }
+]
