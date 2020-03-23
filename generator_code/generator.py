@@ -1,6 +1,6 @@
 from pydub import AudioSegment
 import random
-from dir_helper import get_directory_structure
+from generator_code.dir_helper import get_directory_structure
 import logging, sys
 import copy
 

@@ -1,5 +1,5 @@
 import json
-from segment import Segment
+from generator_code.segment import Segment
 
 def parse_json_segments (filename) :
     segments = []

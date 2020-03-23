@@ -1,9 +1,9 @@
 import logging, sys
 import configparser
-from json_parser import parse_json_segments
-from voices import generate_voices
-from generator import pick_songs
-from mp3_generator import generate_mp3
+from generator_code.json_parser import parse_json_segments
+from generator_code.voices import generate_voices
+from generator_code.generator import pick_songs
+from generator_code.mp3_generator import generate_mp3
 
 logging.basicConfig(stream=sys.stderr, level=logging.FATAL)
 
